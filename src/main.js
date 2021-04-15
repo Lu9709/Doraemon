@@ -22,6 +22,7 @@ const player = {
     player.play()
     player.bindEvents()
   },
+  // 遍历事件
   bindEvents:()=>{
     for(let key in player.events){
       if(player.events.hasOwnProperty(key)){
